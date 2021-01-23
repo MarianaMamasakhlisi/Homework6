@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Automation Suite" verbose="1" thread-count="8" parallel="tests">
+    <test name="TestSuit1" parallel="tests">
+        <classes>
+            <class name="RoomsHotels"/>
+        </classes>
+    </test>
+    <test name="TestSuit2" parallel="tests">
+        <classes>
+            <class name="Hotels"/>
+        </classes>
+    </test>
+</suite>
